@@ -1,4 +1,5 @@
 import './App.css';
+import { FaLinkedin, FaGithub } from 'react-icons/fa';
 
 function App() {
   return (
@@ -17,6 +18,8 @@ function App() {
             <li>Programming Languages: TypeScript, Python</li>
             <li>Frameworks: React, NextJS</li>
             <li>Database: MongoDB</li>
+            <li>...</li>
+            <li>...</li>
           </ul>
           <h3>Languages</h3>
           <ul>
@@ -69,14 +72,23 @@ function App() {
       </div>
 
       <footer className="footer">
-        <p>Contact: your.email@example.com | +49 178 6569618</p>
+        <p>Contact: jana.bergmans@fielmann.com | +49 178 6569618</p>
         <p>
-          <a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noopener noreferrer">
-            LinkedIn
-          </a>{' '}
-          |{' '}
-          <a href="https://github.com/yourprofile" target="_blank" rel="noopener noreferrer">
-            GitHub
+        <a
+            href="https://de.linkedin.com/in/jana-bergmans-46b045200"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="LinkedIn"
+          >
+            <FaLinkedin size={30} />
+          </a>
+          <a
+            href="https://github.com/Jana-B"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="GitHub"
+          >
+            <FaGithub size={30} />
           </a>
         </p>
       </footer>
